@@ -1,3 +1,4 @@
+var moment;
 if ( typeof require !== 'undefined' )
 {
   moment = require('moment');
