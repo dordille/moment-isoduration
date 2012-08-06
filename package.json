@@ -3,7 +3,7 @@
     "author": "Dan Ordille <dordille@gmail.com>",
     "description": "Adds ISO 8601 duration to support to moment durations.",
     "keywords": ["moment", "ISO 8601", "date", "duration"],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "./moment.isoduration",
     "dependencies": {
         "moment": ">=1.4.0"
