@@ -25,6 +25,12 @@ describe('isoduration', function() {
       duration.minutes().should.equal(6, 'Minutes are correct');
       duration.seconds().should.equal(1, 'Seconds');
     });
+
+    it('should accept decimal representations of time', function() {
+      var duration = moment.duration.fromIsoduration('PT25.933015S');
+      duration.seconds().should.equal(25.933015);
+    });
+
   });
 
   describe('isoduration', function() {
