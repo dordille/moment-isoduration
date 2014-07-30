@@ -1,0 +1,24 @@
+{
+    "name": "moment-isoduration",
+    "version": "0.0.3",
+    "homepage": "https://github.com/dordille/moment-isoduration",
+    "authors": [
+        "Dan Ordille <dordille@gmail.com>"
+    ],
+    "description": "Adds ISO 8601 duration to support to moment durations.",
+    "main": "./moment.isoduration",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+     "moment": ">=1.4.0"
+    },
+    "devDependencies": {
+        "mocha": "latest",
+        "should": "latest"
+    }
+}
